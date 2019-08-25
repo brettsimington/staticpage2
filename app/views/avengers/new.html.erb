@@ -1,0 +1,6 @@
+<h1>Who is your fav avenger, and why?</h1>
+<%= simple_form_for @avenger do |f| %>
+  <%= f.input :avenger %>
+  <br />
+  <%= f.submit 'Create', class: 'btn btn-danger' %>
+<% end %>
